@@ -1,8 +1,10 @@
 body {
   background-color: grey;
-  font: 16px;
+  font-size: 16px;
   /* color: white; */
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  color: #47525E;
+
 }
 
 .screen {
@@ -30,12 +32,17 @@ body {
   width: 375px;
   height: 44px;
   color: white;
+  vertical-align: text-top;
+}
+
+.back {
+  font-family: 'Lato', sans-serif;
 }
 
 .listitem1 {
   margin-top: 331px;
   width: 355px;
-  height: 131.63px;
+  height: 110px;
   background-color: white;
   padding: 10px;
 }
@@ -43,23 +50,25 @@ body {
 .listitem {
   margin-top: 5px;
   width: 355px;
-  height: 131.63px;
+  height: 110px;
   background-color: white;
   padding: 10px;
 }
 
 .listitem1 h1 {
   line-height: 30px;
-  font-size: 20px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .listitem h1 {
   line-height: 30px;
-  font-size: 20px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .firstrow td{
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 tr {
@@ -81,12 +90,18 @@ table {
   margin-left: 40px;
 }
 
+.fa-chevron-right {
+  text-align: right;
+}
+
 .navbar span {
   margin-bottom: 10px;
+  vertical-align: text-top;
 }
 
 .title {
-  padding: 40px;
+  padding: 30px;
+  font-weight: bold;
 }
 
 .tinybus1 {
@@ -135,4 +150,11 @@ table {
   position: absolute;
   left: 690px;
   top: 109.5px;
+}
+
+.statusbar{
+  width: 375px;
+  height: 20px;
+  background-image: url(../assets/statusbar.png);
+  background-size: contain;
 }
