@@ -99,22 +99,22 @@ table {
 
 
 .tinybus1 {
-  width: 15px;
-  height: 15px;
+  width: 30px;
+  height: 30px;
   left: 300px;
   top: 9.5px;
 }
 
 .tinybus2 {
-  width: 15px;
-  height: 15px;
+  width: 30px;
+  height: 30px;
   left: 200px;
   top: 309.5px;
 }
 
 .tinybus3 {
-  width: 15px;
-  height: 15px;
+  width: 30px;
+  height: 30px;
   left: 70px;
   top: 109.5px;
 }
@@ -138,4 +138,12 @@ table {
   height: 40px;
   left: 190px;
   top: 109.5px;
+}
+
+#OOS {
+  color: grey;
+}
+
+#reroute  {
+  color: red;
 }
